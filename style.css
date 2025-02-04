@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    background: linear-gradient(45deg,#010758,#490d61);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.converter{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 36.5rem;
+    
+}
+.converter h2{
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #fff;
+    padding: 1rem 0;
+}
+.converter h2 span{
+    color:#9cfd00;
+    border-bottom: 4px solid #fff;
+    
+}
+.converter textarea{
+    width: 100%;
+    background: #403d84;
+    color: #fff;
+    font-size: 1.2rem;
+    border: 0;
+    outline: 0;
+    border-radius: none;
+    padding:1rem 2rem ;
+  
+    
+}
+.converter textarea::placeholder{
+    color: #fff;
+    font-size: 1.2rem;
+}
+.converter .cvn-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    margin-top: 1.2rem;
+    position: relative;
+}
+.cvn-footer select{
+    width: 75%;
+    height: 2.5rem;
+    border: 0;
+    outline: 0;
+    padding: 0 1.2rem;
+    border-radius: 30px;
+    background-color: #403d84;
+    appearance: none;
+    cursor: pointer;
+   color: #fff;
+
+}
+.cvn-footer button{
+   
+    /* width: 5rem; */
+    font-size: 1.3rem;
+    padding: 0.6rem 1rem;
+    background: #85d10a;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.cvn-footer button i{
+    margin-right: 0.5rem;
+    font-size: 1.2rem;
+}
+#che-down-btn{
+    color: #fff;
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 38%;
+    right: 28%;
+}
