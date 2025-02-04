@@ -19,7 +19,7 @@ Technologies Used :
 
 * HTML
 * CSS
-*JavaScripts
+* JavaScripts
 
 
 How It Works ?
